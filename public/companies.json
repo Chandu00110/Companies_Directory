@@ -1,0 +1,12 @@
+[
+  {"id":1,"name":"Aurora Tech","location":"Bengaluru","industry":"Software","size":120,"website":"https://aurora.example","status":"Active","contact":{"name":"Savannah Nguyen","email":"savannah@aurora.example"},"employee_range":"100K+","country":"IN"},
+  {"id":2,"name":"Blue Horizon Logistics","location":"Hyderabad","industry":"Logistics","size":320,"website":"https://bluehorizon.example","status":"Prospect","contact":{"name":"Arlene McCoy","email":"arlene@bluehorizon.example"},"employee_range":"10K-15K","country":"IN"},
+  {"id":3,"name":"Cedar Fintech","location":"Mumbai","industry":"Finance","size":45,"website":"https://cedar.example","status":"Inactive","contact":{"name":"Eleanor Pena","email":"eleanor@cedar.example"},"employee_range":"5K-8K","country":"IN"},
+  {"id":4,"name":"Delta Retail","location":"Chennai","industry":"Retail","size":210,"website":"https://delta.example","status":"Prospect","contact":{"name":"Kathryn Murphy","email":"kathryn@delta.example"},"employee_range":"10K-15K","country":"IN"},
+  {"id":5,"name":"Epsilon Energy","location":"Pune","industry":"Energy","size":520,"website":"https://epsilon.example","status":"Active","contact":{"name":"Devon Lane","email":"devon@epsilon.example"},"employee_range":"1K-3K","country":"IN"},
+  {"id":6,"name":"FusionAI","location":"Bengaluru","industry":"AI","size":80,"website":"https://fusionai.example","status":"Prospect","contact":{"name":"Cameron Williamson","email":"cameron@fusionai.example"},"employee_range":"5K-7K","country":"IN"},
+  {"id":7,"name":"GreenGrow","location":"Mumbai","industry":"Agriculture","size":33,"website":"https://greengrow.example","status":"Active","contact":{"name":"Bessie Cooper","email":"bessie@greengrow.example"},"employee_range":"10K-15K","country":"IN"},
+  {"id":8,"name":"Helix Pharma","location":"Hyderabad","industry":"Healthcare","size":400,"website":"https://helix.example","status":"Prospect","contact":{"name":"Annette Black","email":"annette@helix.example"},"employee_range":"15K-50K","country":"IN"},
+  {"id":9,"name":"Ion Networks","location":"Chennai","industry":"Telecom","size":150,"website":"https://ion.example","status":"Active","contact":{"name":"Cody Fisher","email":"cody@ion.example"},"employee_range":"25K-55K","country":"IN"},
+  {"id":10,"name":"Jupiter Games","location":"Pune","industry":"Gaming","size":60,"website":"https://jupiter.example","status":"Active","contact":{"name":"Albert Flores","email":"albert@jupiter.example"},"employee_range":"5K-7K","country":"IN"}
+]
