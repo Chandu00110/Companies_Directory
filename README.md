@@ -1,159 +1,114 @@
-# Companies Directory – React Frontend Project
+# 🏢 Companies Directory -- React + Vite + Tailwind
 
-A modern, responsive **Companies Directory** built using **React**, **Tailwind CSS**, and **Framer Motion**.  
-This project showcases clean UI, smooth animations, CRUD operations, filtering, sorting, pagination, and dark mode — everything implemented **on the frontend only** with a JSON data source.
+A modern, responsive **Companies Directory** built with **React**,
+**Vite**, **Tailwind CSS**, and **Framer Motion**.\
+Includes **full CRUD**, **filters**, **sorting**, **pagination**, **dark
+mode**, and a polished UI --- all **100% client-side** using local JSON
+data.
 
----
+## 🔗 Live Demo
 
-## 🚀 Features
+👉 https://companies-directory-neon.vercel.app/
 
-### ✅ **Core Features**
-- View a list of companies in a modern table UI  
-- Company board view (grid-style cards)  
-- Full dark mode support with toggle  
-- Client-side data management (no backend required)
+## ✨ Features
 
-### 🧩 **Filtering & Sorting**
-- Search companies  
-- Filter by industry  
-- Filter by location  
-- Sort ascending / descending  
-- Pagination for large datasets  
+### 🔹 Core Features
 
-### 🛠 **CRUD Operations**
-- Add a new company (modal form)  
-- Edit an existing company  
-- Delete a company  
-- Bulk delete multiple selected companies  
-- All operations happen in the frontend state  
+-   Beautiful company listing --- **Table View** & **Grid View**
+-   Fully responsive (Tailwind)
+-   **Light/Dark mode**
+-   100% front-end only --- no backend
 
-### 🎨 **UI Enhancements**
-- Smooth animations using **Framer Motion**  
-- Avatar images via `pravatar.cc`  
-- Heroicons for icons  
-- Drawer view for detailed company profile  
-- Status badges (Active / Prospect / Inactive)  
-- Responsive layout with Tailwind CSS  
+### 🔹 Filters & Sorting
 
----
+-   Search by name\
+-   Filter by **industry**
+-   Filter by **location**
+-   Sort **A--Z / Z--A**
+-   Pagination for large datasets
 
-## 📂 Folder Structure
+### 🔹 CRUD Operations
 
-project/
-│
-├── public/
-│ └── companies.json # Initial dataset
-│
-├── src/
-│ ├── components/ # All UI components
-│ │ ├── modals/ # CRUD modal components
-│ │ ├── CompaniesTable.jsx
-│ │ ├── CompanyRow.jsx
-│ │ ├── CompanyCard.jsx
-│ │ ├── Header.jsx
-│ │ ├── Drawer.jsx
-│ │ ├── Pagination.jsx
-│ │ └── Toast.jsx
-│ │
-│ ├── context/
-│ │ └── CompaniesContext.jsx
-│ │
-│ ├── utils/
-│ │ ├── flags.js
-│ │ ├── sort.js
-│ │ ├── useDebounce.js
-│ │ └── toastUtils.js
-│ │
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-│
-├── package.json
-└── README.md
+-   ➕ Add Company\
+-   ✏️ Edit Company\
+-   ❌ Delete Company\
+-   🗑️ Bulk Delete\
+-   State handled using **React Context**
 
-yaml
-Copy code
+### 🔹 UI & UX Enhancements
 
----
+-   ✨ Smooth animations (Framer Motion)\
+-   🖼 Auto-generated avatars (`pravatar.cc`)\
+-   🧭 Right-side Drawer for details\
+-   🔖 Status Badges\
+-   🔔 Toast Notifications\
+-   ⚡ Heroicons for UI
 
-## 📦 Installation & Setup
+## 📁 Project Structure
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-2️⃣ Install dependencies
-bash
-Copy code
+    Companies_Directory/
+    │
+    ├── public/
+    │   └── companies.json
+    │
+    ├── src/
+    │   ├── components/
+    │   │   ├── modals/
+    │   │   ├── CompaniesTable.jsx
+    │   │   ├── CompanyRow.jsx
+    │   │   ├── CompanyCard.jsx
+    │   │   ├── Header.jsx
+    │   │   ├── Drawer.jsx
+    │   │   ├── Pagination.jsx
+    │   │   └── Toast.jsx
+    │   │
+    │   ├── context/
+    │   │   └── CompaniesContext.jsx
+    │   │
+    │   ├── utils/
+    │   │   ├── flags.js
+    │   │   ├── sort.js
+    │   │   ├── useDebounce.js
+    │   │   └── toastUtils.js
+    │   │
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    │
+    ├── package.json
+    └── README.md
+
+## 🛠 Installation
+
+``` bash
+git clone https://github.com/Chandu00110/Companies_Directory.git
+cd Companies_Directory
 npm install
-3️⃣ Start the development server
-bash
-Copy code
 npm run dev
-The app will be available at:
+```
 
-👉 http://localhost:5173
+## 📦 Sample Data
 
-🛡 Tech Stack
-Technology	Purpose
-React.js	UI framework
-Vite	Fast development server
-Tailwind CSS	Styling
-Framer Motion	Animations
-Heroicons	Icons
-JSON File	Mock API data
-
-🌐 Deployment
-This project can be deployed on:
-
-Vercel (recommended)
-
-Netlify
-
-Render (static site)
-
-Deploy on Vercel:
-Push your code to GitHub
-
-Go to https://vercel.com
-
-Import your repository
-
-Select Framework: Vite
-
-Click Deploy
-
-📊 Sample JSON Data
-The app loads its initial data from:
-
-pgsql
-Copy code
 public/companies.json
-This contains 10 fully structured sample companies.
 
-📽 Demo Video (Optional for submission)
-Record a short video including:
+## 🚀 Deployment (Vercel)
 
-Overview of folder structure
+1.  Push to GitHub\
+2.  Go to Vercel\
+3.  Import repo\
+4.  Select Vite\
+5.  Deploy
 
-Brief explanation of components
+## 🛡 Tech Stack
 
-CRUD flow (add, edit, delete)
+React, Vite, Tailwind, Framer Motion, Heroicons, Context API, JSON
 
-Filtering & sorting
+## 👨‍💻 Author
 
-Deployment link
+Chandra Shekhar\
+GitHub: https://github.com/Chandu00110\
+LinkedIn: https://www.linkedin.com/in/chandra-shekhar-pepakayala/
 
-🙌 Author
-Your Name Here
-Frontend Developer
-GitHub: https://github.com/your-username
-LinkedIn: https://linkedin.com/in/your-profile
+## ⭐ Support
 
-📝 License
-This project is for educational and assessment purposes.
-You may reuse and modify freely.
-
-yaml
-Copy code
-
+If you like this project, please ⭐ the repo!
